@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f4">
+  <title>Uma contagem especial para Lorena</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video class="background-video" autoplay muted loop playsinline aria-hidden="true" tabindex="-1">
+    <source src="video/WhatsApp Video 2026-11-09 at 20.00.59.mp4" type="video/mp4">
+  </video>
+  <canvas class="confetti-canvas" id="confetti-canvas" aria-hidden="true"></canvas>
+  <main class="card">
+    <div class="sparkle sparkle-one" aria-hidden="true">✦</div>
+    <div class="sparkle sparkle-two" aria-hidden="true">✧</div>
+    <p class="eyebrow">ANIVERSÁRIO + FINAL DE SEMANA DE COMEMORAÇÃO</p>
+    <div class="portrait-frame">
+      <img class="portrait" src="img/lorena1.jpg" alt="Lorena sorrindo com um chapéu de Feliz Aniversário">
+      <span class="portrait-sparkle" aria-hidden="true">✦</span>
+    </div>
+    <div class="cake" aria-hidden="true">🎂</div>
+    <h1>Um fim de semana<br>para celebrar a <span>Lorena!</span></h1>
+    <p class="intro">Três dias de piscina, churrasco, pagode e boas companhias ❤️</p>
+
+    <section class="countdown" aria-label="Contagem regressiva">
+      <div class="unit"><strong id="days">—</strong><span>dias</span></div>
+      <div class="separator">:</div>
+      <div class="unit"><strong id="hours">—</strong><span>horas</span></div>
+      <div class="separator">:</div>
+      <div class="unit"><strong id="minutes">—</strong><span>minutos</span></div>
+      <div class="separator">:</div>
+      <div class="unit"><strong id="seconds">—</strong><span>segundos</span></div>
+    </section>
+    <p class="date-note" id="date-note">27 a 29 de novembro · a partir das 12h 💛</p>
+    <div class="rule"></div>
+    <section class="schedule" aria-labelledby="schedule-title">
+      <p class="eyebrow schedule-kicker">PROGRAMAÇÃO</p>
+      <h2 id="schedule-title">Três dias de comemoração</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true">☀️</div>
+          <div class="timeline-content">
+            <p class="day">SEXTA-FEIRA <span>27 NOV</span></p>
+            <h3>Boas-vindas e pagode</h3>
+            <p><strong>Tarde:</strong> piscina, bebidas geladas e resenha na casa.</p>
+            <p><strong>Noite:</strong> Bar do Jota para curtir um pagode. 🎶</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true">🥩</div>
+          <div class="timeline-content">
+            <p class="day">SÁBADO <span>28 NOV</span></p>
+            <h3>Churrasco com a galera</h3>
+            <p><strong>Durante o dia:</strong> churrasco, piscina, música, bebidas e muita resenha.</p>
+            <p>Mais 5 convidados chegam para aproveitar a tarde com a gente. 🍻</p>
+            <p><strong>À noite:</strong> pagode no Bambare. O bar pode mudar se a galera preferir outra opção.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true">🍻</div>
+          <div class="timeline-content">
+            <p class="day">DOMINGO <span>29 NOV</span></p>
+            <h3>Domingo para aproveitar</h3>
+            <p>Mais um dia para curtir a companhia de todo mundo, se divertir e fechar o fim de semana com chave de ouro. 🎉</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <div class="rule"></div>
+    <p class="signature">Piscina, churrasco, pagode, comida boa e pessoas especiais <span>♡</span></p>
+  </main>
+  <footer>27–29 de novembro · um fim de semana para celebrar a Lorena ✨</footer>
+  <audio id="birthday-song" class="birthday-song" autoplay loop controls preload="auto" aria-label="Música da comemoração">
+    <source src="music/musica.mp3" type="audio/mpeg">
+    Seu navegador não conseguiu carregar a música. Use os controles para tentar novamente.
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
